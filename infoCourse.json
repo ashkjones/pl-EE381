@@ -10,8 +10,7 @@
         {"name": "Template", "color": "orange1", "description": "Templates to copy as the start for a new question."},
         {"name": "Binomial RV", "color": "blue1", "description": "Binomial RV."},
         {"name": "Central Limit", "color": "red1", "description": "Central Limit Theorem"},
-        {"name": "Hypergeometric", "color": "yellow1", "description": "Hypergeometric distribution"},
-        {"name": "Baye's Rule", "color": "blue2", "description": "Baye's Rule"}
+        {"name": "Hypergeometric", "color": "red1", "description": "Hypergeometric distribution"}
     ],
     "tags": [
         {"name": "ashley", "color": "gray1", "description": "Question originally written by Ashley"},
