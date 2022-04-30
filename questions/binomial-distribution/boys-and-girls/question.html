@@ -1,42 +1,49 @@
 <pl-question-panel>
   <p>
   Out of 800 families with 5 children each,how many would you expect to have 
-  <b>(a)</b> 3 boys,<b>(b)</b> 5 girls, <b>(c)</b> either 2 or 3 boys? Assume equal probabilities for boys and girls.
+  <b>(i)</b> 3 boys,<b>(ii)</b> 5 girls, <b>(iii)</b> either 2 or 3 boys? Assume equal probabilities for boys and girls.
   </p>
 </pl-question-panel>
 
+<hr>
+
 <pl-question-panel>
   <p>
-    3 boys
+    <b>(i) 3 boys</b>
   </p>
 </pl-question-panel>
 
 <pl-multiple-choice answers-name="answer">
   {{#params.q1choices}}
-  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  <pl-answer correct="{{answer}}">{{text}}</pl-answer>
   {{/params.q1choices}}
 </pl-multiple-choice>
-<!-- 
+
+<hr>
+
 <pl-question-panel>
   <p>
-    5 girls
+    <b>(ii) 5 girls</b>
   </p>
 </pl-question-panel>
 
-<pl-multiple-choice answers-name="answer">
+<pl-multiple-choice answers-name="answer1">
   {{#params.q2choices}}
-  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  <pl-answer correct="{{answer}}">{{text}}</pl-answer>
   {{/params.q2choices}}
 </pl-multiple-choice>
 
+
+<hr> 
+
 <pl-question-panel>
   <p>
-    either 2 or 3 boys
+    <b>(iii) either 2 or 3 boys</b>
   </p>
 </pl-question-panel>
 
-<pl-multiple-choice answers-name="answer">
+<pl-multiple-choice answers-name="answer2">
   {{#params.q3choices}}
-  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  <pl-answer correct="{{answer}}">{{text}}</pl-answer>
   {{/params.q3choices}}
-</pl-multiple-choice> -->
+</pl-multiple-choice>
