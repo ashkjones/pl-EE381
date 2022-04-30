@@ -1,0 +1,11 @@
+<pl-question-panel>
+  <p>
+    Find the probability of getting between 3 and 6 heads inclusive in 10 tosses of a fair coin by using the binomial distribution.
+  </p>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="answer">
+  {{#params.choices}}
+  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  {{/params.choices}}
+</pl-multiple-choice>
