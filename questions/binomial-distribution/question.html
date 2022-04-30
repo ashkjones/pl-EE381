@@ -1,0 +1,42 @@
+<pl-question-panel>
+  <p>
+  Out of 800 families with 5 children each,how many would you expect to have 
+  <b>(a)</b> 3 boys,<b>(b)</b> 5 girls, <b>(c)</b> either 2 or 3 boys? Assume equal probabilities for boys and girls.
+  </p>
+</pl-question-panel>
+
+<pl-question-panel>
+  <p>
+    3 boys
+  </p>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="answer">
+  {{#params.q1choices}}
+  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  {{/params.q1choices}}
+</pl-multiple-choice>
+<!-- 
+<pl-question-panel>
+  <p>
+    5 girls
+  </p>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="answer">
+  {{#params.q2choices}}
+  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  {{/params.q2choices}}
+</pl-multiple-choice>
+
+<pl-question-panel>
+  <p>
+    either 2 or 3 boys
+  </p>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="answer">
+  {{#params.q3choices}}
+  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  {{/params.q3choices}}
+</pl-multiple-choice> -->
