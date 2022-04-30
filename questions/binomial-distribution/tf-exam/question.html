@@ -1,0 +1,13 @@
+<pl-question-panel>
+  <p>
+  Find the probability of guessing correctly at least 6 of the 10 answers on a true-false examination.
+  </p>
+</pl-question-panel>
+
+<hr>
+
+<pl-multiple-choice answers-name="answer">
+  {{#params.q1choices}}
+  <pl-answer correct="{{answer}}">{{text}}</pl-answer>
+  {{/params.q1choices}}
+</pl-multiple-choice>
