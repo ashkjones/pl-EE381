@@ -1,0 +1,11 @@
+<pl-question-panel>
+  <p>
+    Suppose that a game is to be played with a single die assumed fair. In this game a player wins \$20 if a 2 turns up, \$40 if a 4 turns up; loses \$30 if a 6 turns up; while the player neither wins nor loses if any other face turns up. Find the expected sum of money to be won.
+  </p>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="answer">
+  {{#params.choices}}
+  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  {{/params.choices}}
+</pl-multiple-choice>
