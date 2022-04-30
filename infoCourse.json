@@ -10,6 +10,7 @@
         {"name": "Template", "color": "orange1", "description": "Templates to copy as the start for a new question."},
         {"name": "Binomial RV", "color": "blue1", "description": "Binomial RV."},
         {"name": "Central Limit", "color": "red1", "description": "Central Limit Theorem"},
+        {"name": "Binomial Distribution", "color": "green1", "description": "Binomial Distribution"},
         {"name": "Hypergeometric", "color": "red1", "description": "Hypergeometric distribution"}
     ],
     "tags": [
