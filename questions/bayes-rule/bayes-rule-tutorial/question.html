@@ -1,0 +1,59 @@
+<pl-question-panel>
+<p>
+   <u><b>Bayes' Theorem:</b></u><br>
+   $$ P(A|B) = \frac{P(B|A)\cdot P(A)}{P(B)} $$<br>
+   <u>Remember:</u><br>
+   $ A,B $ = events<br>
+   $ P(A|B) $ = probability of A given B is true<br>
+   $ P(B|A) $ =	probability of B given A is true<br>
+   $ P(A), P(B) $ = the independent probabilities of A and B<br>
+</p>
+<p></p>
+</pl-question-panel>
+
+<hr> 
+
+<pl-question-panel>
+<p>
+   Two factories A and B make the same gadget. D is the probability that the gadget is defective. {{params.pa}}%
+   of the gadgets come from factory A and {{params.pb}}% of the gadgets come from factory B. {{params.pda}}% of the 
+   gadgets from A are defective, and {{params.pdb}}% from B are defective.<br>
+
+   Given the gadget is defective, what is the probability it is from factory A?
+</p>
+
+<p>
+   $$ P(A) = {{params.pa_decimal}} $$
+   $$ P(B) = \text{ ?} $$
+</p>
+</pl-question-panel>
+<pl-number-input answers-name="pb_decimal" label="$P(B): $" show-placeholder="false"></pl-number-input>
+
+<hr>
+
+<pl-question-panel>
+<p>
+   $$ P(A\cap B) = P(D|A)P(A) = {{params.pda_decimal}} \cdot {{params.pa_decimal}} = {{params.pand}} $$
+   $$ P(B\cap D) = P(D|B)P(B) = {{params.pdb_decimal}} \cdot {{params.pb_decimal}} = \text{ ?} $$
+</p>
+</pl-question-panel>
+<pl-number-input answers-name="pbnd" label="$P(B\cap D): $" show-placeholder="false" size="31"></pl-number-input>
+
+<hr>
+
+<pl-question-panel>
+<p>
+   $$ P(D) = P(A\cap D) + P(B\cap D) = \text{ ?} $$
+</p>
+</pl-question-panel>
+<pl-number-input answers-name="pd" label="$P(D): $" show-placeholder="false"></pl-number-input>
+
+<hr>
+
+<pl-question-panel>
+<p>
+   <b>And the final answer is:</b>
+   $$ P(A|B) = \frac{P(B|A)\cdot P(A)}{P(B)} = \text{ ?} $$
+</p>
+</pl-question-panel>
+<pl-number-input answers-name="pad" label="$P(A|B): $" show-placeholder="false" size="33"></pl-number-input>
