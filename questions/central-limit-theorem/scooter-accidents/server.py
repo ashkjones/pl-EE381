@@ -13,13 +13,13 @@ def generate(data):
     # correct_z = np.array([(x - 0.5) / root])
     # table_value = stats.zscore(correct_z)
     choices.append({"text": 0.6915, "answer": False, "feedback": "This is the probability there is less than 11."})
-    choices.append({"text": 0.3085, "answer": True})
+    choices.append({"text": 0.3085, "answer": True, "feedback": "Correct!"})
     
     # adding exclusive answers
     # wrong_z = np.array([x / root])
     # table_value = stats.zscore(wrong_z)
-    choices.append({"text": 0.7486, "answer": False, "feedback": "Less than 11 inclusive"})
-    choices.append({"text": 0.2514, "answer": False, "feedback": "Less than 11 inclusive"})
+    choices.append({"text": 0.7486, "answer": False, "feedback": "Less than 11 inclusive."})
+    choices.append({"text": 0.2514, "answer": False, "feedback": "Less than 11 inclusive."})
 
     data["params"]["average"] = average
     data["params"]["x"] = x
