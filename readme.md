@@ -8,5 +8,5 @@ many varients of the same base problem, and organize study questions by topics u
 ## Running the Course
 
 Create a local repository and follow the directions on the [PrairieLearn](https://prairielearn.readthedocs.io/en/latest/installing/) website to run the course on your device.
-To actually realize the final product, we would need create a server that runs the course for easier and faster access. This is outside the scope  of
+To actually realize the final product, we would need to create a server that runs the course for easier and faster access. This is outside the scope  of
 the project for now.
