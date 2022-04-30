@@ -1,0 +1,11 @@
+<pl-question-panel>
+  <p>
+    The mean weight of 500 male students at a certain college is 151 lb and the standard deviation is 15 lb. Assuming that the weights are normally distributed, find how many students weigh between 120 and 155 lb.
+  </p>
+</pl-question-panel>
+
+<pl-multiple-choice answers-name="answer">
+  {{#params.choices}}
+  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  {{/params.choices}}
+</pl-multiple-choice>
