@@ -1,10 +1,14 @@
 <pl-question-panel>
-If $a = {{params.a}}$ and $b = {{params.b}}$, then what is $a$ multiplied by $b$? 
+  <p>
+  Serious Vespa scooter accidents in Redondo Beach, California necessarily follow 
+  a Poisson distribution with an average of <b>{{params.average}} </b>per summer break. 
+  Use the central limit theorem to approximate the probability that there will be 
+  <b>{{params.x}}</b> or more serious Vespa scooter accidents in Redondo Beach this summer break.
+  </p>
 </pl-question-panel>
 
-<pl-multiple-choice answers-name="ans">
-  <pl-answer correct="true">{{params.correct_answer}}</pl-answer>
-  <pl-answer correct="false">{{params.wrong_answer1}}</pl-answer>
-  <pl-answer correct="false">{{params.wrong_answer2}}</pl-answer>
-  <pl-answer correct="false">{{params.wrong_answer3}}</pl-answer>
+<pl-multiple-choice answers-name="answer">
+  {{#params.choices}}
+  <pl-answer correct="{{answer}}" feedback="{{feedback}}">{{text}}</pl-answer>
+  {{/params.choices}}
 </pl-multiple-choice>
