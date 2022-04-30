@@ -1,0 +1,18 @@
+{
+    "uuid": "9cc56e77-b330-4a45-9719-70f0f8c73a9e",
+    "name": "EE 381",
+    "title": "Probability and Statistics with Applications to Computing",
+    "options": {
+        "useNewQuestionRenderer": true
+    },
+    "assessmentSets": [],
+    "topics": [
+        {"name": "Template", "color": "orange1", "description": "Templates to copy as the start for a new question."},
+        {"name": "Binomial RV", "color": "orange1", "description": "Binomial RV."}
+    ],
+    "tags": [
+        {"name": "ashley", "color": "gray1", "description": "Question originally written by Ashley"},
+        {"name": "jocelyn", "color": "gray1", "description": "Question originally written by Jocelyn"},
+        {"name": "marvin", "color": "gray1", "description": "Question originally written by Marvin"}
+    ]
+}

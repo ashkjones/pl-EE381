@@ -1,0 +1,13 @@
+{
+    "uuid": "5933fc2e-d9eb-45b4-ae7f-7f90a7e7bf7a",
+    "shortName": "SG",
+    "longName": "Study Group",
+    "allowAccess": [
+        {
+            "comment": "you probably want to set access to just your institution and semester start/end dates",
+            "institution": "Any",
+            "startDate": "1800-01-19T00:00:01",
+            "endDate": "2400-05-13T23:59:59"
+        }
+    ]
+}
