@@ -8,7 +8,8 @@
     "assessmentSets": [],
     "topics": [
         {"name": "Template", "color": "orange1", "description": "Templates to copy as the start for a new question."},
-        {"name": "Binomial RV", "color": "orange1", "description": "Binomial RV."}
+        {"name": "Binomial RV", "color": "blue1", "description": "Binomial RV."},
+        {"name": "Central Limit", "color": "red1", "description": "Central Limit Theorem"}
     ],
     "tags": [
         {"name": "ashley", "color": "gray1", "description": "Question originally written by Ashley"},
